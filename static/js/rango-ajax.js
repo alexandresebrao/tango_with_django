@@ -1,11 +1,3 @@
-$(document).ready( function() {
-
-
-
-    $("#about-btn").click( function(event) {
-        alert("You clicked the button using JQuery!");
-    });
-
     $('#suggestion').keyup(function(){
         var query;
         query = $(this).val();
@@ -13,6 +5,3 @@ $(document).ready( function() {
          $('#cats').html(data);
         });
 	});
-
-
-});
