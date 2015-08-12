@@ -6,9 +6,9 @@
     <div class="page-header">
                 <h1>About</h1>
             </div>
-        <h1>Rango says...</h1>
+        <h1>{% trans "Rango says!"%}</h1>
         <strong>{{ boldmessage }}</strong><br />
-        You visit: {{visit}}
+        {% blocktrans %}You visit: {{visit}}{% endblocktrans %}
         <a href="/rango/">Go Back</a><br />
         <img src="{% static "images/rango.jpg" %}" alt="Picture of Rango" /> <!-- New line -->
         <button id="about-btn"> Click Me - I'm Javascript on Speed</button>
