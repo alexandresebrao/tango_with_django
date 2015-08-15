@@ -28,11 +28,11 @@ LOCALE_PATHS = (
 SECRET_KEY = '(*1*8hio#bg&*w$6p1jj$sa^3+1v6)(&hl)#dn24x=b#k$p+5s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['alexandresebrao.pythonanywhere.com']
 
 
 # Application definition
